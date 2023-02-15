@@ -18,7 +18,14 @@ temp-=1;
 System.out.print(s.charAt(i));
 for(int k=0;k<2*i;k++)
 {
+if(k==i || k==i-1)
+{
+System.out.print("*");
+}
+else
+{
 System.out.print(" ");
+}
 }
 System.out.print(s.charAt(i));
 System.out.println("");
@@ -34,7 +41,14 @@ tem++;
 System.out.print(s.charAt(i));
 for(int k=1;k<=2*i;k++)
 {
+if(k==i || k==i+1)
+{
+System.out.print("*");
+}
+else
+{
 System.out.print(" ");
+}
 }
 System.out.print(s.charAt(i));
 System.out.println("");
